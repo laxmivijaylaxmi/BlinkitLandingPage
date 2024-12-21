@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "../node_modules/slick-carousel/slick/slick.css";
+@import "../node_modules/slick-carousel/slick/slick-theme.css";
+
+@media (max-width: 768px) {
+    .search-bar {
+      width: 100%;
+      padding: 10px;
+    }
+    .search-bar input {
+      width: calc(100% - 40px); /* Ensure input doesn't overflow */
+    }
+  }
+  

@@ -1,0 +1,7 @@
+.banner-slider .slick-slide img {
+    width: 100%;
+    height: auto; /* Ensure the height is adjusted proportionally */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
